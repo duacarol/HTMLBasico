@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    background-color: brown;
+    color:beige;
+    font-family: 'Verdana';
+    font-weight: normal;    
+    padding: 2px;
+    margin: 0;
+}
+
+p {
+    font-family: 'Cambria';
+    font-size: x-large;
+    padding: 2px;
+    margin: 0;
+}
+
+main p {
+    background-color: turquoise;
+}
+
+footer p {
+    background-color: bisque;
+}
