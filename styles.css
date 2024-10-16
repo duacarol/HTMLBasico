@@ -1,27 +1,56 @@
-body {
+footer {
     text-align: center;
 }
 
-h1 {
-    background-color: brown;
-    color:beige;
-    font-family: 'Verdana';
-    font-weight: normal;    
-    padding: 2px;
-    margin: 0;
+header {
+    margin: 2em;
 }
 
-p {
-    font-family: 'Cambria';
-    font-size: x-large;
-    padding: 2px;
-    margin: 0;
+.qh1,
+.qh2,
+.highlight {
+    font-weight: 500;
 }
 
-main p {
-    background-color: turquoise;
+.qh1,
+.highlight {
+    text-transform: uppercase;
+}
+
+.qh2,
+.highlight {
+    font-size: xx-large;
+}
+
+.col,
+footer,
+footer p {
+    padding: 1em;
+}
+
+.highlight-bg {
+    background-color: rgb(234, 244, 219);
+    padding: 2em;
+    height: 300px;
+    margin-bottom: 2em;
+     
+}
+
+.carousel-item {
+    height: 400px;
+}
+
+.col {
+    border-radius: 15px;
+    margin: 1em;
+}
+
+footer {
+    background-color: rgb(234, 244, 219);
+    margin-top: 1em;
+
 }
 
 footer p {
-    background-color: bisque;
+    margin: 0;
 }
